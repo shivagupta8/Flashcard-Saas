@@ -1,7 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 const firebaseConfig = {
-    apiKey: "AIzaSyBU1OTRRfg4LoCC1sWNLiAkkZQ-NjJjiBw",
+    apiKey: "YOUR_API_KEY",
     authDomain: "flashcard-e2eea.firebaseapp.com",
     projectId: "flashcard-e2eea",
     storageBucket: "flashcard-e2eea.appspot.com",
