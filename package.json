@@ -2,6 +2,8 @@
   "name": "flashcard-saas",
   "version": "0.1.0",
   "private": true,
+  "main": "page.js",
+  "homepage": "./",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +11,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.3.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.7",
+    "firebase": "^10.13.0",
+    "next": "14.2.5",
+    "openai": "^4.56.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "eslint": "^8",

@@ -24,7 +24,7 @@ export default function Home() {
     const checkoutSession = await fetch('/api/checkout_session', {
       method: 'POST',
       headers: {
-        origin: 'http://localhost:3000/',
+        origin: 'http://localhost:3000',
       },
     })
     const checkoutSessionJson = await checkoutSession.json()
@@ -118,7 +118,7 @@ export default function Home() {
           <Typography variant="h4" gutterBottom> Pricing </Typography>
 
         <Grid container spacing = {4}>
-            <Grid item xs = {12} md = {6}>
+            <Grid item xs = {12} md = {4}>
               <Box sx={{
                 p: 3,
                 border: '1px solid',
@@ -143,7 +143,7 @@ export default function Home() {
               </Button>
               </Box>
               </Grid>
-              {/* </Grid> */}
+              </Grid>
               
               <Grid item xs = {12} md = {6}>
               <Box sx={{
@@ -168,9 +168,8 @@ export default function Home() {
                 Choose Pro
               </Button>
               </Box>
-            </Grid>
-         </Grid>
-        </Box>
+          </Grid>
+          </Box>
     </Container>
   )
 }
